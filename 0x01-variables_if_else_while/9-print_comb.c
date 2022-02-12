@@ -11,7 +11,7 @@ int main(void)
 
 	for (sin = '0'; sin <= '9'; ++sin)
 	{
-	if (sin != '9')
+	if (sin != '0')
 	{
 		putchar(',');
 		putchar(' ');
