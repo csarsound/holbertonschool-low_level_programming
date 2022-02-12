@@ -1,4 +1,4 @@
-# include <stdio.h>
+#include <stdio.h>
 
 /**
  * main - designated start of the program
@@ -11,7 +11,7 @@ int main(void)
 
 	for (num = 0; num < 10; num++)
 		putchar(num + '0');
-	putchar('\0');
+	putchar('\n');
 
 	return (0);
 }
