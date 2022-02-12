@@ -9,14 +9,14 @@ int main(void)
 {
 	int sin;
 
-	for (sin = '0'; sin <= '9'; sin++)
+	for (sin = '0'; sin <= '9'; ++sin)
 	{
-		putchar(sin + '0');
-	if (sin < '9')
+	if (sin != '9')
 	{
 		putchar(',');
 		putchar(' ');
 	}
+	putchar(sin);
 	}
 	putchar('\n');
 
