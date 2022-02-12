@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - designated start of the program
+ * main - print numbers and alphabetic
  * Return: Always 0
  */
 
@@ -16,6 +15,5 @@ int main(void)
 		putchar(base);
 
 		putchar('\n');
-
-	return (0);
-}	
+		return (0);
+}
