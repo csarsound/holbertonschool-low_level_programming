@@ -1,13 +1,12 @@
-
-   
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 #include "main.h"
 /**
- * main - designated start of the program
+ * main  - designated start of the program
  * Return: Awesone 0
  */
+
 int main(void)
 {
 	int n;
