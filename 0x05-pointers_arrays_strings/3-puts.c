@@ -1,20 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - print string
- * @str: string type pointer
- * Return: of string
+ * _puts - prints a string
+ * @str: string parameter
  */
-
 void _puts(char *str)
 {
-	int capricho;
+	int i = 0;
 
-	capricho = 0;
-
-	while (str[capricho] != '\0')
+	while (str[i] != '\0')
 	{
-		_putchar(str[capricho]);
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
