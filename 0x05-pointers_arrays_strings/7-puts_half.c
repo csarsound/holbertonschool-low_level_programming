@@ -3,22 +3,22 @@
  * puts_half - print the second half of a string
  * @str: and string parameter as a pointer
  */
+
 void puts_half(char *str)
 {
-/** this is to find the size of the string **/
-	int counter = 0;
-	int poscentral;
 
-	while (str[counter] != '\0')
+	int j = 0;
+	int i;
+
+	while (str[j] != '\0')
 	{
-		counter++;
+		j++;
 	}
-/** the last position **/
-	poscentral = counter / 2;
-	while (str[poscentral] != '\0')
+	i = j / 2;
+	while (str[i] != '\0')
 	{
-		_putchar(str[poscentral]);
-		poscentral++;
+		_putchar(str[i]);
+		i++;
 	}
 	_putchar('\n');
 }
