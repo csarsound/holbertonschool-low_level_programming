@@ -2,19 +2,20 @@
 /**
  * puts_half - print the second half of a string
  * @str: and string parameter as a pointer
+ * Return: half puts
  */
 
 void puts_half(char *str)
 {
 
-	int j = 0;
+	int n = 0;
 	int i;
 
-	while (str[j] != '\0')
+	while (str[n] != '\0')
 	{
-		j++;
+		n++;
 	}
-	i = j / 2;
+	i = n / 2;
 	while (str[i] != '\0')
 	{
 		_putchar(str[i]);
