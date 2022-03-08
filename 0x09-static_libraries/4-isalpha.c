@@ -1,12 +1,13 @@
 #include "main.h"
-
 /**
- * _isalpha - writes the character c to stdout
- * @c: The character to print
- *
- * Return: Zero
+ * _isalpha - is a function that check just the characters
+ * @c: letter for input
+ * Return: 1 if int c is lowercase, 0 if otherwise
  */
 int _isalpha(int c)
 {
-	return (0);
+	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+		return (1);
+	else
+		return (0);
 }

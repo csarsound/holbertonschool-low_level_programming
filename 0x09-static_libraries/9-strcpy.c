@@ -1,14 +1,24 @@
 #include "main.h"
-
 /**
- * _strncpy - writes the character c to stdout
- * @dest: The character to print
- * @src: second character
- * @n: int
- *
- * Return: Zero
+ * _strcpy - copy a string to a pointer variable
+ * @dest: char pointer parameter dest
+ * @src: char pointer parameter source
+ * Return: return char
  */
-char *_strncpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
-	return (0);
+	int i, j;
+
+	i = 0;
+	while (src[i] != '\0')
+	{
+		i++;
+	}
+	j = 0;
+	while (j <= i)
+	{
+		dest[j] = src[j];
+		j++;
+	}
+	return (dest);
 }

@@ -1,13 +1,32 @@
+
+   
 #include "main.h"
 
 /**
- * _strspn - writes the character c to stdout
- * @s: The character to print
- * @accept: second character
- *
- * Return: Zero
+ * _strspn - gets the length of a prefix
+ * @s: sample
+ * @accept: rotation
+ * Return: n-value
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
-	return (0);
+	int i;
+	int j;
+
+	for (i = 0; s[i]; i++)
+	{
+		for (j = 0; accept[j]; j++)
+		{
+			if (s[i] == accept[j])
+			{
+				break;
+			}
+		}
+		if (accept[j] == '\0')
+		{
+			break;
+		}
+	}
+	return (i);
 }

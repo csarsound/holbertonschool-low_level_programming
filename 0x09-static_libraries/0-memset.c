@@ -1,14 +1,19 @@
 #include "main.h"
-
 /**
- * _memset - function
- * @s: char
- * @b: char2
- * @n: int
- * Return: nothing
+ * _memset - fill memory constant
+ * @s: space of memory
+ * @b: byte
+ * @n: memory area
+ * Return: pointere to memory
  */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	return (0);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		*(s + i) = b;
+	}
+	return (s);
 }

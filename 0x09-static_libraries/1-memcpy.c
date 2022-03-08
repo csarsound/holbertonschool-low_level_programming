@@ -1,13 +1,20 @@
 #include "main.h"
 
 /**
- * _memcpy - writes the character c to stdout
- * @dest: The character to print
- * @src: Char Two
- * @n: int
- * Return: Zero
+ * _memcpy - function
+ * @dest: destiny of copy
+ * @src: grabe
+ * @n: bytes
+ * Return: to dest
  */
+
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (0);
+	unsigned int i;
+
+	for (i = 0; i < n; i++)
+	{
+		dest[i] = src[i];
+	}
+	return (dest);
 }

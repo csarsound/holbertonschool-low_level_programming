@@ -1,14 +1,32 @@
 #include "main.h"
 
 /**
- * _strncpy - writes the character c to stdout
- * @dest: The character to print
- * @src: Second Character
- * @n: int
- *
- * Return: Zero
+ * _strncpy - copy of string to string
+ * @dest: pointer destination
+ * @src: source pointer
+ * @n: determinate if end of bytes
+ * Return: dest
  */
+
 char *_strncpy(char *dest, char *src, int n)
 {
-	return (0);
+	int i = 0, j = 0;
+
+	while (src[j])
+	{
+		j++;
+	}
+
+	while (i < n && src[i])
+	{
+		dest[i] = src[i];
+		i++;
+	}
+
+	while (i < n)
+	{
+		dest[i] = '\0';
+		i++;
+	}
+	return (dest);
 }
