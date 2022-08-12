@@ -13,7 +13,7 @@ void print_times_table(int n)
 
 	value = n;
 	max = 9;
-	if (value < 0 || value > 15)
+	if (value > 15 || value < 0)
 	return;
 	for (multiply2 = 0; multiply2 <= n; multiply2++)
 	{
