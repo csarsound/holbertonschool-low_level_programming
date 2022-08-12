@@ -11,8 +11,8 @@ int main(void)
 
 	if (num1 == 1 && num2 == 2)
 	{
-	printf("%d, ", num1);
-	printf("%d, ", num2);
+	printf("%lu, ", num1);
+	printf("%lu, ", num2);
 	}
 	for (index = 0; index <= 50; index++)
 	{
