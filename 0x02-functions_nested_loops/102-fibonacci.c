@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - function that print numbers fibonacci 
+ * main - function that print numbers fibonacci
  * Return: Always 0
- */ 
+ */
 int main(void)
 {
 	int index, num1 = 1, num2 = 2, sum;
