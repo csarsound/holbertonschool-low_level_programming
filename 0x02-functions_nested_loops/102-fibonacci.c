@@ -14,13 +14,13 @@ int main(void)
 	printf("%lu, ", num1);
 	printf("%lu, ", num2);
 	}
-	for (index = 0; index < 50; index++)
+	for (index = 0; index < 48; index++)
 	{
 		sum = (num1 + num2);
 		printf("%lu", sum);
 		num1 = num2;
 		num2 = sum;
-		if (index == 49)
+		if (index == 47)
 		{
 			printf("\n");
 		}
