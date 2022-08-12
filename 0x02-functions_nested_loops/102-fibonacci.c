@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int index;
+	short index;
 	unsigned long sum, num1 = 1, num2 = 2;
 
 	if (num1 == 1 && num2 == 2)
@@ -18,8 +18,8 @@ int main(void)
 	{
 		sum = (num1 + num2);
 		printf("%lu", sum);
-		num1++;
-		num2++;
+		num1 = num2;
+		num2 = sum;
 		if (index == 49)
 		{
 			printf("\n");
