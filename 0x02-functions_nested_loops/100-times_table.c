@@ -57,10 +57,10 @@ void print_times_table(int n)
  */
 void print_spaces(void)
 {
-	putchar(',');
-	putchar(' ');
-	putchar(' ');
-	putchar(' ');
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
+	_putchar(' ');
 }
 
 /**
@@ -70,7 +70,7 @@ void print_spaces(void)
  */
 void print_spaces2(void)
 {
-	putchar(',');
-	putchar(' ');
-	putchar(' ');
+	_putchar(',');
+	_putchar(' ');
+	_putchar(' ');
 }
