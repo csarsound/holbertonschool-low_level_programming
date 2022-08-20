@@ -10,21 +10,22 @@ int main(void)
 
 	printf("%lu, ", sum1);
 
-	for (i = 1; i <= 49; i++)
+	for (i = 1; i <= 42; i++)
 	{
 		sum1 = sum1 + sum2;
-		if (i < 49)
+		if (i <= 42)
 		{
 			printf("%lu, ", sum1);
 		}
-		else
-		{
-			printf("%lu", sum1);
-		}
+
 		sum2 = sum1 + sum2;
-		if (i < 49)
+		if (i < 42)
 		{
 			printf("%lu, ", sum2);
+		}
+		else
+		{
+			printf("%lu", sum2);
 		}
 	}
 	printf("\n");
