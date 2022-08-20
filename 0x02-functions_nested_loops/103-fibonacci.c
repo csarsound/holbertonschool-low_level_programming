@@ -12,7 +12,7 @@ int main(void)
 
 	for (i = 0; i <= 33; i++)
 	{
-		if (sum1 < 40000 && (sum1 % 2) == 0)
+		if (sum1 < 4000000 && (sum1 % 2) == 0)
 		{
 			sumt = sumt + sum1;
 		}
