@@ -17,20 +17,15 @@ int main(void)
 		{
 			printf("%lu, ", sum1);
 		}
-		else 
+		else
 		{
-			printf("%lu", sum1);	
+			printf("%lu", sum1);
 		}
 		sum2 = sum1 + sum2;
 		if (i < 49)
 		{
 			printf("%lu, ", sum2);
 		}
-/**		else if (i = 49)
-		{
-			printf("%lu", sum2);
-		}
-*/	}
 	printf("\n");
 	return (0);
 }
