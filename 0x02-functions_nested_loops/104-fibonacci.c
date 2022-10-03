@@ -6,29 +6,16 @@
  */
 int main(void)
 {
-	unsigned long int i, sum1 = 1, sum2 = 1;
+	int initial = 0;
+	int initial2 = 1;
+	int generade = 0;
 
-	printf("%lu, ", sum1);
-
-	for (i = 1; i <= 49; i++)
+	for (int i = 1; i < 98; i++)
 	{
-		sum1 = sum1 + sum2;
-		if (i < 49)
-		{
-			printf("%lu, ", sum1);
-		}
-		else
-		{
-			printf("%lu", sum1);
-		}
-
-		sum2 = sum1 + sum2;
-		if (i < 42)
-		{
-			printf("%lu, ", sum2);
-		}
-
+	generade = initial + initial2;
+	initial = initial2;
+	initial2 = generade;
+	printf("%d, ", generade);
 	}
-	printf("\n");
 	return (0);
 }
