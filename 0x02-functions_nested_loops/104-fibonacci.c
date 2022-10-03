@@ -7,14 +7,14 @@
 int main(void)
 {
 	int i;
-	int initial = 0, initial2 = 1, generade = 0;
+	unsigned long int initial = 0, initial2 = 1, generade = 0;
 
-	for ( i = 1; i <= 98; i++)
+	for (i = 1; i <= 98; i++)
 	{
 	generade = initial + initial2;
 	initial = initial2;
 	initial2 = generade;
-	printf("%d, ", generade);
+	printf("%du, ", generade);
 	}
 	return (0);
 }
