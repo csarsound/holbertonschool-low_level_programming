@@ -15,7 +15,7 @@ int main(void)
 	generade = initial + initial2;
 	initial = initial2;
 	initial2 = generade;
-	printf("%d, ", generade);
+	printf("%lu, ", generade);
 	}
 	return (0);
 }
