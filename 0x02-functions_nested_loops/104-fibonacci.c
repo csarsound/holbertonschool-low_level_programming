@@ -6,9 +6,7 @@
  */
 int main(void)
 {
-	int initial = 0;
-	int initial2 = 1;
-	int generade = 0;
+	unsigned long int initial = 0, initial2 = 1, generade = 0;
 
 	for (int i = 1; i < 98; i++)
 	{
