@@ -6,9 +6,10 @@
  */
 int main(void)
 {
+	int i;
 	unsigned long int initial = 0, initial2 = 1, generade = 0;
 
-	for (int i = 1; i < 98; i++)
+	for ( i = 1; i < 98; i++)
 	{
 	generade = initial + initial2;
 	initial = initial2;
